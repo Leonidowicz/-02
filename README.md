@@ -1,3 +1,3 @@
-﻿# goit-markup-hw-01
-Домашнее задание 01
-https://leonidowicz.github.io/goit-markup-hw-01/
+﻿# goit-markup-hw-02
+Домашнее задание 02
+https://leonidowicz.github.io/goit-markup-hw-02/
