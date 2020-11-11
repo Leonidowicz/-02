@@ -1,0 +1,35 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+  align-self: flex-end;
+}
+nav {
+  height: 80px;
+  display: flex;
+  align-self: start;
+  align-items: center;
+}
+nav > ul {
+  margin-left: 93px;
+  display: flex;
+}
+header li {
+  margin-right: 50px;
+}
+
+header > ul {
+  margin-left: 331px;
+  display: flex;
+}
