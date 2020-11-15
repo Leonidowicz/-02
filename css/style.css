@@ -33,14 +33,6 @@ footer {
   background: var(--dark-bg);
   color: var(--lite-bg);
 }
-button {
-  background-color: var(--midl-bg);
-}
-button:hover,
-button:focus {
-  background-color: var(--elements);
-  color: var(--lite-bg);
-}
 /* nav */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -108,6 +100,8 @@ address a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  background-color: var(--elements);
+  color: var(--lite-bg);
 }
 .advantages ul {
   display: flex;
@@ -163,3 +157,31 @@ address a {
   letter-spacing: 0.03em;
 }
 /* Portfolio page */
+.our-works .sorter {
+  display: flex;
+}
+.sorter button {
+  background-color: var(--midl-bg);
+}
+.sorter button:hover,
+.sorter button:focus {
+  background-color: var(--elements);
+  color: var(--lite-bg);
+}
+.our-works .items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.items h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.items p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
